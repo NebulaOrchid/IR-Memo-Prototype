@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:efts.sec.gov)",
+      "WebFetch(domain:data.sec.gov)",
+      "WebFetch(domain:github.com)",
+      "Bash(pip install:*)",
+      "Bash(python create_mock_excel.py:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(python -c:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx vite build)"
+    ]
+  }
+}

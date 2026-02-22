@@ -15,7 +15,11 @@ export default function AnalystSelector({ value, onChange, disabled }) {
       })
       .catch(() => {
         // Fallback if backend is not running
-        setAnalysts([{ name: "Mike Mayo", firm: "Wells Fargo Securities" }]);
+        setAnalysts([
+          { name: "Mike Mayo", firm: "Wells Fargo Securities" },
+          { name: "Betsy Graseck", firm: "Morgan Stanley Research" },
+          { name: "Brennan Hawken", firm: "BMO Capital Markets" },
+        ]);
       })
       .finally(() => setLoading(false));
   }, []);
